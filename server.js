@@ -12,7 +12,7 @@ app.get('/article-one',function (req,res){
    res.send('what is wrong with you bro'); 
 });
 app.get('/article-two',function(req,res){
-    res.send('<!DOCTYPE html><body><a href="www.google.com">google</a></boby></html>');
+    res.send('<!DOCTYPE html><body><a href="article-one">article-one</a></boby></html>');
 });
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
